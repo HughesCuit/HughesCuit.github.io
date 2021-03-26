@@ -1,0 +1,80 @@
+---
+layout: post
+title: Git的使用
+date: 2015-11-06 12:37:16
+tags:
+  - iOS项目-钱花哪了
+categories:
+  - 开发日常
+---
+
+# 显示 Mac 隐藏文件：
+
+    defaults write com.apple.finder AppleShowAllFiles Yes && killall Finder
+
+# 隐藏 Mac 隐藏文件：
+
+    defaults write com.apple.finder AppleShowAllFiles No && killall Finder
+
+# git 全局配置文件：
+
+    ~/.gitconfig
+
+<!--more-->
+
+# git 主要指令学习
+
+1.  git status 查看仓库当前状态
+2.  git add . 添加文件到“暂存区”
+3.  git commit -m “注释” 文件添加文件到本地仓库
+4.  git log 查看当前版本
+5.  git reflog 查看所有修改版本
+6.  git clone 远程仓库地址 克隆远程仓库
+7.  未提交的反悔：git reset --hard HEAD
+8.  配置带颜色的 log 别名 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+9.  git reset 版本回滚
+
+        1) 回滚到上一个版本: git reset --hard HEAD^
+        2) 回滚到上上一个版本: git reset --hard HEAD^^
+        3) 回滚到上N个版本: git reset --hard HEAD~N(N是一个整数)
+        4) 回滚到任意一个版本: git reset ––hard 版本号（版本号用7位即可)
+
+### 分支
+
+    	5) git branch -r 查看远程分支
+    	6) git branch dev	   创建分支dev分支
+
+7）it checkout dev 切换到 dev 分支
+8）git branch -r -d origin/bugfix1.0 删除远程分支
+9）git branch 查看分支
+10）git merge dev
+
+### 标签
+
+    	1）git tag  查看当前标签
+
+2)git tag -a v1.0 -m 'Version 1.0’ 在本地代码库给项目打上一个标签，之后记得 push 到服务器
+3)git push origin v1.0 将标签添推送到远程代码库中
+4)git checkout v1.0 签出 v1.0 标签
+5)git checkout -b bugfix1.0 从签出状态创建 v1.0bugfix 分支
+
+# 代码托管网站
+
+远程服务器仓库的搭建
+
+### 国外
+
+    	1、https://github.com
+
+### 国内
+
+    	1、https://git.oschina.net 
+    	网速较国外快，可以添加私有库
+     中文，容易看懂
+
+2、https://coding.net/
+
+# 项目创建
+
+![1](http://ww2.sinaimg.cn/large/6b7d44cfgw1exr2ms8xyuj215o0nbae0.jpg)
+![2](http://ww3.sinaimg.cn/large/6b7d44cfgw1exr32gfvu7j20ep0jtdhk.jpg)
