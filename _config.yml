@@ -41,11 +41,12 @@ theme_setting:
   code: true
   math: true
   mermaid: true
-  comment:
-    enabled: true
-    provider: disqus
-    disqus:
-      name: HHWY
+
+comment:
+  enabled: true
+  provider: disqus
+  disqus:
+    name: HHWY
 
 timezone: "Asia/Shanghai"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
