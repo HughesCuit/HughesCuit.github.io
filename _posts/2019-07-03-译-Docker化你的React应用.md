@@ -6,7 +6,7 @@ tags:
   - Docker
   - React
 categories:
-  - 技术文档
+  - 开发笔记
 ---
 
 原文：[Dockerizing a React App](https://mherman.org/blog/dockerizing-a-react-app/)

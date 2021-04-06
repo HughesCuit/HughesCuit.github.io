@@ -3,9 +3,8 @@ layout: post
 title: Custom Keyboard Extension 的屁事博 -- 在Container App 中植入键盘（一）
 tags:
   - Keyboard
-  - 奇葩需求
 categories:
-  - 开发日常
+  - 开发笔记
 date: 2017-06-03 16:46:00
 ---
 

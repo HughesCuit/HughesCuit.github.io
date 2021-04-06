@@ -5,7 +5,7 @@ tags:
   - RAC
   - FRP
 categories:
-  - iOS学习笔记
+  - 开发笔记
 date: 2016-04-06 12:06:00
 ---
 

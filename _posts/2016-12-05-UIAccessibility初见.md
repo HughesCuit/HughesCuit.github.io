@@ -6,7 +6,7 @@ tags:
   - Voice Over
   - 朝花夕拾
 categories:
-  - iOS学习笔记
+  - 开发笔记
 date: 2016-12-05 23:20:00
 ---
 

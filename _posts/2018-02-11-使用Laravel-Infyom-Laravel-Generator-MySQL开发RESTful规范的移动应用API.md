@@ -6,7 +6,7 @@ tags:
   - 服务器
   - laravel
 categories:
-  - 开发日常
+  - 开发笔记
 date: 2018-02-11 15:46:00
 ---
 

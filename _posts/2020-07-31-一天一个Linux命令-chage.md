@@ -3,7 +3,8 @@ layout: post
 title: 一天一个Linux命令--chage
 tags:
   - Linux
-categories: []
+categories:
+  - IT技术
 date: 2020-07-31 10:32:00
 ---
 

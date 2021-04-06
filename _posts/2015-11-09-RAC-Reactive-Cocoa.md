@@ -3,7 +3,7 @@ layout: post
 title: ReactiveCocoa(RAC)
 date: 2015-11-09 04:45:39
 tags: 技术学习
-categories: iOS学习笔记
+categories: 开发笔记
 ---
 
 ## -- 基于响应式编程的第三方框架

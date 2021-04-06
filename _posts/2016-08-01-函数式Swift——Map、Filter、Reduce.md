@@ -5,7 +5,7 @@ tags:
   - 函数式
   - Swift
 categories:
-  - iOS学习笔记
+  - 开发笔记
 date: 2016-08-01 11:23:00
 ---
 
