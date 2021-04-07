@@ -50,7 +50,7 @@ timezone: "Asia/Shanghai"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Build settings
-theme: jekyll-theme-persephone
+theme: jekyll-theme-hext
 remote_theme: erlzhang/jekyll-theme-persephone
 plugins:
   - jekyll-feed
